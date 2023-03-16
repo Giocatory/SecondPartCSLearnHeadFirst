@@ -47,7 +47,18 @@
                 <ListBoxItem Content="Honey Manufacturer" />
                 <ListBoxItem Content="Egg Care" />
             </ComboBox>
-            <Button Content="Assign this job to a bee" Click="AssignJob_Click" />
+            <Button Click="AssignJob_Click" Content="Assign this job to a bee" />
         </StackPanel>
+        <Button
+            Grid.Row="2"
+            Margin="30"
+            Click="WorkShift_Click"
+            Content="Work the next shift" />
+
+        <TextBox
+            Grid.Row="1"
+            Grid.RowSpan="2"
+            Grid.Column="1"
+            Margin="30" />
     </Grid>
 </Window>

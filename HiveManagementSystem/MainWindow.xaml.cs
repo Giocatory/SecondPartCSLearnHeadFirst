@@ -29,5 +29,10 @@ namespace HiveManagementSystem
         {
 
         }
+
+        private void WorkShift_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
