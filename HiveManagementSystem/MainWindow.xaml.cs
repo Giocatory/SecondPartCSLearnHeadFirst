@@ -24,5 +24,10 @@ namespace HiveManagementSystem
         {
             InitializeComponent();
         }
+
+        private void AssignJob_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
