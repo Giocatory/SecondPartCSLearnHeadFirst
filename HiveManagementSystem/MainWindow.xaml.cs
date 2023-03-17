@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HiveManagementSystem.logic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,12 @@ namespace HiveManagementSystem
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Queen queen = new();
+
         public MainWindow()
         {
             InitializeComponent();
+            statusReport.Text = queen.StatusReport;
         }
 
         private void AssignJob_Click(object sender, RoutedEventArgs e)

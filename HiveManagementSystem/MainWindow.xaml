@@ -56,9 +56,11 @@
             Content="Work the next shift" />
 
         <TextBox
+            x:Name="statusReport"
             Grid.Row="1"
             Grid.RowSpan="2"
             Grid.Column="1"
-            Margin="30" />
+            Margin="10,4,10,10"
+            FontSize="10" />
     </Grid>
 </Window>
