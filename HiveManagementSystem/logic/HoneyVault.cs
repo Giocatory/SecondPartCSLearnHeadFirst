@@ -18,39 +18,37 @@ namespace HiveManagementSystem.logic
         {
             get 
             {
+                string status = $"{honey:0.0} unit of honey\n{nectar:0.0} unit of nectar";
+                string warnings = "";
+
                 if (honey < LOW_LEVEL_WARNING)
                 {
-                    return "LOW HONEY — ADD A HONEY MANUFACTURER";
+                    warnings += "\nLOW HONEY — ADD A HONEY MANUFACTURER";
                 }
                 else if (nectar < LOW_LEVEL_WARNING) { }
                 {
-                    return "LOW NECTAR — ADD A NECTAR MANUFACTURER";
+                    warnings += "\nLOW NECTAR — ADD A NECTAR COLLECTOR";
                 }
+                return status + warnings;
             }
         }
 
         public static void ConvertNectarToHoney(float amount)
         {
-            if (nectar == 0)
+            if (amount > nectar) 
             {
-                return;
+                amount = nectar;
             }
-            if (amount >= nectar) 
-            {
-                nectar = 0;
-            }
-            else
-            {
-                nectar -= amount;
-            }
+            
+            nectar -= amount;
             honey += amount * NECTAR_CONVERSION_RATIO;
         }
 
         public static bool ConsumeHoney(float amount)
         {
-            if (amount < honey)
+            if (honey >= amount)
             {
-                amount -= honey;
+                honey -= amount;
                 return true;
             }
             return false;
@@ -60,7 +58,7 @@ namespace HiveManagementSystem.logic
         {
             if(amount > 0)
             {
-                honey += amount;
+                nectar += amount;
             }
         }
     }
