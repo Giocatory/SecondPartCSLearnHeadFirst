@@ -1,4 +1,4 @@
-﻿using HiveManagementSystem.logic;
+using HiveManagementSystem.logic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
