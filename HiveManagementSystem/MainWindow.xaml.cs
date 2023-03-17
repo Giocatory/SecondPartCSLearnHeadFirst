@@ -42,7 +42,7 @@ namespace HiveManagementSystem
 
         private void AssignJob_Click(object sender, RoutedEventArgs e)
         {
-
+            HoneyVault.CollectNectar(25f);
         }
 
         private void WorkShift_Click(object sender, RoutedEventArgs e)
