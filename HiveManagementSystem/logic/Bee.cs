@@ -9,7 +9,7 @@ namespace HiveManagementSystem
     abstract class Bee
     {
         public string Job { get; private set; }
-        public virtual float CostPerShift {get;}
+        public abstract float CostPerShift {get;}
 
         public Bee(string job)
         {
@@ -24,6 +24,6 @@ namespace HiveManagementSystem
             }
         }
 
-        protected virtual void DoJob() { /* Subclasses overrides this method */}
+        protected abstract void DoJob();
     }
 }
