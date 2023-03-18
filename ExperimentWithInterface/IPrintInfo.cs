@@ -8,6 +8,6 @@ namespace ExperimentWithInterface
 {
     interface IPrintInfo
     {
-        string ToString(object obj);
+        string Print { get; }
     }
 }

@@ -13,6 +13,7 @@ namespace ExperimentWithInterface
         public int ID { get; private set; }
 
         #region constructor chain
+        public Bot() : this("no-name") { }
         public Bot(string name)
         {
             Name = name;
@@ -21,10 +22,12 @@ namespace ExperimentWithInterface
         }
         #endregion
 
-        public string ToString(object obj)
+        public string Print
         {
-            return $"Bot object: id({ID}) - name({Name})";
+            get
+            {
+                return $"Bot object: id({ID}) - name({Name})";
+            }
         }
-        
     }
 }
