@@ -6,15 +6,18 @@ IPrintInfo[] ObjectsPrint = {
                                 new Bot("Two"),
                                 new Bot("Three"),
                                 new Bot(),
-};
+                            };
 
 foreach (var obj in ObjectsPrint)
 {
-    Console.WriteLine(obj.Print);
+    var dt = (Bot)obj;
+    dt.Description = "simple chat bot";
+
+    Console.WriteLine($"{obj.Print};\t{dt.Description}");
 }
 /*
-Bot object: id(1) - name(One)
-Bot object: id(2) - name(Two)
-Bot object: id(3) - name(Three)
-Bot object: id(4) - name(no-name)
+Bot object: id(1) - name(One);          simple chat bot
+Bot object: id(2) - name(Two);          simple chat bot
+Bot object: id(3) - name(Three);        simple chat bot
+Bot object: id(4) - name(no-name);      simple chat bot
 */

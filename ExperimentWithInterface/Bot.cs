@@ -11,6 +11,7 @@ namespace ExperimentWithInterface
         private static int id = 0;
         public string Name { get; set; }
         public int ID { get; private set; }
+        public string Description { get; set; }
 
         #region constructor chain
         public Bot() : this("no-name") { }
