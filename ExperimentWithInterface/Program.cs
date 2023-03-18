@@ -12,7 +12,7 @@ foreach (var obj in ObjectsPrint)
 {
     var dt = (Bot)obj;
     dt.Description = "simple chat bot";
-
+   
     Console.WriteLine($"{obj.Print};\t{dt.Description}");
 }
 /*
