@@ -6,7 +6,7 @@ using System.Text;
 
 namespace HiveManagementSystem
 {
-    class Bee
+    abstract class Bee
     {
         public string Job { get; private set; }
         public virtual float CostPerShift {get;}
