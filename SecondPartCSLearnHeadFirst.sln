@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentWithInterface", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaryClown", "ScaryClown\ScaryClown.csproj", "{23C05A7C-0D06-479F-8D55-984C82CDAE4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComicsCollection", "ComicsCollection\ComicsCollection.csproj", "{C4B2EB3A-56AA-42E4-A76F-E2827A8622D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{23C05A7C-0D06-479F-8D55-984C82CDAE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C05A7C-0D06-479F-8D55-984C82CDAE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23C05A7C-0D06-479F-8D55-984C82CDAE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B2EB3A-56AA-42E4-A76F-E2827A8622D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B2EB3A-56AA-42E4-A76F-E2827A8622D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B2EB3A-56AA-42E4-A76F-E2827A8622D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B2EB3A-56AA-42E4-A76F-E2827A8622D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
