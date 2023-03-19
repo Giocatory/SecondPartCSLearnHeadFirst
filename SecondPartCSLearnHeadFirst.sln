@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HiveManagementSystem", "Hiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExperimentWithInterface", "ExperimentWithInterface\ExperimentWithInterface.csproj", "{DC393212-6468-4261-9262-2212763BCA29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScaryClown", "ScaryClown\ScaryClown.csproj", "{23C05A7C-0D06-479F-8D55-984C82CDAE4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DC393212-6468-4261-9262-2212763BCA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC393212-6468-4261-9262-2212763BCA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC393212-6468-4261-9262-2212763BCA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23C05A7C-0D06-479F-8D55-984C82CDAE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23C05A7C-0D06-479F-8D55-984C82CDAE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23C05A7C-0D06-479F-8D55-984C82CDAE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23C05A7C-0D06-479F-8D55-984C82CDAE4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
