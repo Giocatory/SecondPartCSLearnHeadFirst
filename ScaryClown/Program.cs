@@ -12,3 +12,9 @@ if (fingerTheClown is IScaryClown iScaryClownReference)
 Console.WriteLine();
 IClown.CarCapacity = 18;
 Console.WriteLine(IClown.ClownCarDescription()); // A clown car with 10 clowns.
+
+Console.WriteLine();
+if (fingerTheClown is IScaryClown iScaryClownAdultReference)
+{
+    iScaryClownAdultReference.ScareAdults();
+}
