@@ -1,14 +1,14 @@
 ﻿using ExperimentWithInterface;
 using System.Threading;
 
-IPrintInfo[] ObjectsPrint = {
+IPrintInfo[] objectsPrint = new IPrintInfo[4]{
                                 new Bot("One"),
                                 new Bot("Two"),
                                 new Bot("Three"),
                                 new Bot(),
                             };
 
-foreach (var obj in ObjectsPrint)
+foreach (var obj in objectsPrint)
 {
     var dt = (Bot)obj;
     dt.Description = "simple chat bot";
